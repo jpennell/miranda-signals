@@ -1,0 +1,17 @@
+.DS_Store
+UnitTestResults.xml
+test-results
+obj
+*.pidb
+Library
+ProjectSettings
+*.csproj
+*.unityproj
+*.sln
+*.userprefs
+UnitTestResults.xml
+Temp
+target
+unity-test-log.txt
+Assets/Runtime/Plugins*
+Assets/Editor/Plugins*
