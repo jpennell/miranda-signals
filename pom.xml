@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.mestevens.injection.extensions</groupId>
+	<groupId>com.jamespennell.injection</groupId>
 	<artifactId>miranda-signals</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>unity-library</packaging>
