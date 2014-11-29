@@ -31,13 +31,13 @@ namespace Jamespennell.Injection.Extensions.Signals.Impl
 
 		#region Methods
 
-		protected override sealed void MapPluginBindings()
+		protected override void MapPluginBindings()
 		{
 			this.injectionBinder.Bind<IDictionary<Type, IList<Type>>>().Named(Constants.SIGNAL_TO_COMMANDS).To(this.signalsToCommands).ToSingleton();
 			this.injectionBinder.Bind<IDictionary<Type, IList<Type>>>().Named(Constants.SIGNAL_TO_ASYNC_COMMANDS).To(this.signalsToAsyncCommands).ToSingleton();
 		}
 
-		public override sealed Context Bind<T>()
+		public override Context Bind<T>()
 		{
 			Type type = typeof(T);
 			
@@ -53,7 +53,7 @@ namespace Jamespennell.Injection.Extensions.Signals.Impl
 			return this;
 		}
 
-		public override sealed Context To<T>()
+		public override Context To<T>()
 		{
 			Type type = typeof(T);
 			
